@@ -1,0 +1,12 @@
+[project]
+name = "ai-docker-api-server"
+version = "1.0.0"
+description = "AI Docker API server"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.12"
+]
+
+[project.scripts]
+api = "fastapi run app.py"
